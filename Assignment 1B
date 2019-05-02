@@ -4,8 +4,24 @@
 Note - Combination of channel will also lead to some sensitive channel where thing are linked to each other.
 eg Combination of edges lead to arc, An arc might not exist anywhere but it could be present in form of (Vertical line, Horizontal line, angle line)
 
+Kernel - Kernel is a feature extracter, filter , 3x3 matrix it is used to identify the core from different channels specified.
+eg collection of peas is a channel but a single pea is a kernel.
 
 <h3>Why should we only (well mostly) use 3x3 Kernels?</h3>
+Their are certain reasons why 3x3 kernels are used mostly which is discussed below with examples-:
+1.Logic behind not using even no's - As their is no concept of middle so we cannot thing of left and right part.It is difficult to make something symmentric
+eg We cannot make traingle from 4x4 without losing pixels and the loss after using 3x3 on 4x4 is 16-9 =7 pixels which could be huge if we consider millions of kernels.
+
+2.Why not 5x5 or higher?
+Suppose we are using 5X5 matrix so we want only one 5x5 to cover whole matrix or image which is 25.
+But if we use 3x3 twice to cover whole image we still able to save some computation as 2 times 3x3 = 9+9 =18
+25 - 18 = 7.
+So By using 3x3 over 5x5 we have optimized our approach to some extent.
+
+another example
+21x21 - 1x1 = 441 parameters.
+3x3 over 21x21 to reach 1x1 = 90 parameters.
+Results in saving huge parameters,that's we generally prefer 3x3 mostly leaving some exceptions.
 
 
 
