@@ -11,7 +11,7 @@ eg collection of peas is a channel but a single pea is a kernel.</br>
 
 <p>Their are certain reasons why 3x3 kernels are used mostly which is discussed below with examples-:</p>
 
-<h4>1.Logic behind not using even no's</h4> - As their is no concept of middle so we cannot thing of left and right part.It is difficult to make something symmentric.
+<h4>1.Logic behind not using even no's</h4> As their is no concept of middle so we cannot thing of left and right part.It is difficult to make something symmentric.
 <br>eg-: We cannot make traingle from 4x4 without losing pixels and the loss after using 3x3 on 4x4 is 16-9 =7 pixels which could be huge if we consider millions of kernels.</br>
 
 <h4>2.Why not 5x5 or higher?</h4>
