@@ -9,7 +9,7 @@ Horizontal Edge Detector
 <br>Identity function (doesn't do anything)
 <br> Note - I have strictly used 3x3 matrix while answering mentioned questions. 
 
-<br><br>colab link - https://colab.research.google.com/drive/1gV_VeeazW4Bqwgehp2mMCob7D3MvZ8d4
+<br>Colab link - https://colab.research.google.com/drive/1gV_VeeazW4Bqwgehp2mMCob7D3MvZ8d4
 
 
 # Assignment 1B
