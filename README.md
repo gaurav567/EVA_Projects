@@ -1,4 +1,18 @@
-# EVA_Project1_Assignment1B
+# EVA_Project1
+
+# Assignment 1A
+<p>Project1.ipynb is been answered with Assignment question mentioned below-:</p>
+Horizontal Edge Detector
+<br>45 Degree Angle Detector (either)
+<br>Blur Kernel
+<br>Sharpen Kernel
+<br>Identity function (doesn't do anything)
+<br> Note - I have strictly used 3x3 matrix while answering mentioned questions. 
+
+<br><br>colab link - https://colab.research.google.com/drive/1gV_VeeazW4Bqwgehp2mMCob7D3MvZ8d4
+
+
+# Assignment 1B
 <h3>What are Channels and Kernels (according to EVA)?</h3>
 <p>A channel generally contains the same kind of information, for example, only red color, or all the vertical edges.</p>
 Note - Combination of channel will also lead to some sensitive channel where thing are linked to each other.
@@ -31,4 +45,10 @@ Results in saving huge parameters,that's why we generally prefer 3x3 mostly leav
 199x199 - 197x197 - 195x195 - 193x193 - 191x191 - 189x189 - 187x187 - 185x185 - 183x183 -181x181 - 179x179 - 177x177 - 175x175 - 173x173 - 171x171 - 169x169 - 167x167 - 165x165 - 163x163 - 161x161 -159x59 - 157x157 - 155x155 - 153x153 - 151x151 - 149x149 - 147x147 -145x145 - 143x143 - 141x141 - 139x139 - 137x137 - 135x135 - 133*133 - 131*131 - similarly series will continue till 1x1(129,127,125,123,121,119,117,115,113,111,109,107,105,103,101,99,97,95,93,91,89,87,85,83,81,79,77,75,73,71,69,67,65,63,61,59,57,55,53,51,49,47,45,43,41,39,37,35,33,31,29,27,25,23,21,19,17,15,13,11,9,7,5,3,1x1 finally)
 199/2 - 99.5 approx 100 layers.
 
+# References
+EVA Session-1 video.
+<br>https://www.cis.rit.edu/people/faculty/rhody/EdgeDetection.htm - edge detection concepts
+<br>https://arxiv.org/abs/1705.07049 - receptive field concepts.
+<br>Discussions(Posted on EVA forum)
+<br>youtube(Andrew ng video on edge detection) - https://www.youtube.com/watch?v=XuD4C8vJzEQ&feature=youtu.be&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF
 
