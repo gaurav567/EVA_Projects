@@ -46,9 +46,9 @@ Results in saving huge parameters,that's why we generally prefer 3x3 mostly leav
 199/2 - 99.5 approx 100 layers.
 
 # References
-EVA Session-1 video.
-<br>https://www.cis.rit.edu/people/faculty/rhody/EdgeDetection.htm - edge detection concepts
-<br>https://arxiv.org/abs/1705.07049 - receptive field concepts.
-<br>Discussions(Posted on EVA forum)
-<br>youtube(Andrew ng video on edge detection) - https://www.youtube.com/watch?v=XuD4C8vJzEQ&feature=youtu.be&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF
+- EVA Session-1 video.
+<br>- https://www.cis.rit.edu/people/faculty/rhody/EdgeDetection.htm - edge detection concepts
+<br>- https://arxiv.org/abs/1705.07049 - receptive field concepts.
+<br>- Discussions(Posted on EVA forum)
+<br>- youtube(Andrew ng video on edge detection) - https://www.youtube.com/watch?v=XuD4C8vJzEQ&feature=youtu.be&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF
 
