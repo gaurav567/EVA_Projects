@@ -11,7 +11,7 @@ eg collection of peas is a channel but a single pea is a kernel.</br>
 
 <p>Their are certain reasons why 3x3 kernels are used mostly which is discussed below with examples-:</p>
 
-<br>1.Logic behind not using even no's - As their is no concept of middle so we cannot thing of left and right part.It is difficult to make something symmentric</br>
+1.Logic behind not using even no's - As their is no concept of middle so we cannot thing of left and right part.It is difficult to make something symmentric.
 <br>eg-: We cannot make traingle from 4x4 without losing pixels and the loss after using 3x3 on 4x4 is 16-9 =7 pixels which could be huge if we consider millions of kernels.</br>
 
 <h4>2.Why not 5x5 or higher?</h4>
@@ -21,7 +21,7 @@ But if we use 3x3 twice to cover whole image we still able to save some computat
 So By using 3x3 over 5x5 we have optimized our approach to some extent.
 
 <br>Another example
-21x21 - 1x1 = 441 parameters.
+<br>21x21 - 1x1 = 441 parameters.
 <br>3x3 over 21x21 to reach 1x1 = 90 parameters.</br>
 Results in saving huge parameters,that's why we generally prefer 3x3 mostly leaving some exceptions.
 
