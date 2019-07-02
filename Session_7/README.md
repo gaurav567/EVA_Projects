@@ -1,3 +1,11 @@
+<h3>Assignment 7A:</h3>
+
+Check this paper out: https://arxiv.org/pdf/1409.4842.pdf (Links to an external site.)Links to an external site.
+They mention on page 6, that the RF is 224x224. 
+Use the formulas above and show the calculations
+
+<br>Sol-:</br>
+
 Layers | K | P | S | n_in | n_out=(n_in+2p-k)/s +1 | J_in | J_out=J_in * s | R_in | R_out=R_in +(K-1) * J_in
 --- | --- | --- | --- |--- |--- |--- |--- |--- |---
 Convolution | 7 | 2 | 2 | 224 | 112 | 1 | 2 | 1 | 1+(7-1)* 1=7
